@@ -1,0 +1,9 @@
+
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ð†ËÇùÿÿÿÿ
+s	java:S131"YComplete cases by adding the missing enum constants or add a default case to this switch.(ð†ËÇùÿÿÿÿ
+G
+java:S1181"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ8†ðøÜ¡1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æñÖ©øÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Çðõ"
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ù„Ôæ

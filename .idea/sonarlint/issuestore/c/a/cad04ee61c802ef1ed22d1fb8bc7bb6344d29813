@@ -1,0 +1,29 @@
+
+k
+java:S1104"UMake requestId a static final constant or non-public and provide accessors if needed.(ÏÅˆÖ
+e
+java:S1104"PMake path a static final constant or non-public and provide accessors if needed.(‡ÛÛ?
+s
+java:S1104"XMake pathTemplate a static final constant or non-public and provide accessors if needed.(Ÿçûûıÿÿÿÿ
+h
+java:S1104"RMake method a static final constant or non-public and provide accessors if needed.(ïˆ
+f
+java:S1104"QMake query a static final constant or non-public and provide accessors if needed.(÷ë˜o
+m
+java:S1104	"WMake elapsedTime a static final constant or non-public and provide accessors if needed.(çÀéå
+u
+java:S1104"ZMake responseStatus a static final constant or non-public and provide accessors if needed.(ÅÖüûıÿÿÿÿ
+f
+java:S1104"PMake host a static final constant or non-public and provide accessors if needed.(Ö«êú
+q
+java:S1104"VMake apiVersion a static final constant or non-public and provide accessors if needed.(ùİæ˜üÿÿÿÿ
+s
+java:S1104"XMake errorMessage a static final constant or non-public and provide accessors if needed.(˜Ùçöşÿÿÿÿ
+v
+java:S1104"[Make errorStackTrace a static final constant or non-public and provide accessors if needed.(¢’Ùáùÿÿÿÿ
+‚
+java:S4165"lRemove this useless assignment; "responseStatus" already holds the assigned value along all execution paths.(«õóâ
+H
+java:S1172"-Remove this unused method parameter "status".(€£·âüÿÿÿÿ
+E
+java:S1656"/Remove or correct this useless self-assignment.(«õóâ

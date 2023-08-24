@@ -1,0 +1,17 @@
+
+g	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8áŞ™è¡1
+g	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âŞ™è¡1
+g	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âŞ™è¡1
+g	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8èñ€š¢1
+{
+java:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(üŞÊ•úÿÿÿÿ8äŞ™è¡1
+d
+java:S3518_"BMake sure "totalStudent" can't be zero before doing this division.(ĞÃêöşÿÿÿÿ8‘ß™è¡1
+\
+java:S1854$":Remove this useless assignment to local variable "params".(­¦û‰ÿÿÿÿÿ8–ß™è¡1
+M
+java:S1481$"+Remove this unused "params" local variable.(­¦û‰ÿÿÿÿÿ8—ß™è¡1
+[
+java:S1155,">Use isEmpty() to check whether the collection is empty or not.(³‹Şç8˜ß™è¡1
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8ß™è¡1

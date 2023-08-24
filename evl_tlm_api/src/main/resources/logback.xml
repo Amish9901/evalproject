@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <!--move java util logging to slf4j-->
+        <!-- reset all previous level configurations of all j.u.l. loggers -->
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+
+    <!--FILE NAMES-->
+    <property name="home" value="${LOGS_HOME:-${HOME}/evl_tlm}/logs"/>
+    <!--   <property name="home" value="/home/ec2-user/eDriving/auth/logs"/>-->
+    <property name="api-file-name" value="api"/>
+    <property name="console-file-name" value="console"/>
+    <property name="error-file-name" value="error"/>
+
+    <!--APPENDERS-->
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="console-file-appender">
+        <file>${home}/${console-file-name}###${HOSTNAME}.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger - %msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${home}/%d{yyyy-MM, aux}/${console-file-name}.%d{yyyy-MM-dd}.%i###${HOSTNAME}.log</fileNamePattern>
+            <!-- each file should be at most 100MB, keep 30 days worth of history, but at most 5GB -->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+
+    </appender>
+
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="error-file-appender">
+        <file>${home}/${error-file-name}###${HOSTNAME}.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger - %msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${home}/%d{yyyy-MM, aux}/${error-file-name}.%d{yyyy-MM-dd}.%i###${HOSTNAME}.log</fileNamePattern>
+            <!-- each file should be at most 100MB, keep 30 days worth of history, but at most 5GB -->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+    </appender>
+
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="api-file-appender">
+        <file>${home}/${api-file-name}###${HOSTNAME}.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%msg%n</Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>${home}/%d{yyyy-MM, aux}/${api-file-name}.%d{yyyy-MM-dd}###${HOSTNAME}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!--LOGGERS-->
+    <logger additivity="false" level="info" name="api-logger">
+        <appender-ref ref="api-file-appender"/>
+    </logger>
+    <logger additivity="false" level="info" name="error-logger">
+        <appender-ref ref="error-file-appender"/>
+    </logger>
+    <root level="info">
+        <appender-ref ref="console-file-appender"/>
+    </root>
+</configuration>
+

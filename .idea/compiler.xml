@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="evl_tlm_dal_mysql" />
+        <module name="evl_tlm_dist" />
+        <module name="evl_tlm_api" />
+        <module name="evl_tlm_dal_in_mem" />
+        <module name="evl_tlm_dal_dynamodb" />
+        <module name="evl_tlm_api_model" />
+        <module name="evl_tlm_dal" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+API response sent - RequestId: 9d8baff2-014c-4917-9f72-2b5e8db2ddc8, Path: /api/avg, Status: 0
+{"requestId":"9d8baff2-014c-4917-9f72-2b5e8db2ddc8","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":39,"pathParam":"single","requestTime":1692695057468,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 9d8baff2-014c-4917-9f72-2b5e8db2ddc8, Path: /api/avg, Status: 0
+{"requestId":"9d8baff2-014c-4917-9f72-2b5e8db2ddc8","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":68,"pathParam":"single","requestTime":1692695057468,"responseStatus":0,"host":"APH10013","errorMessage":"Internal Server Error","errorStackTrace":"com.google.gson.Gson.checkValidFloatingPoint(Gson.java:448)com.google.gson.Gson$1.write(Gson.java:413)com.google.gson.Gson$1.write(Gson.java:399)com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:70)com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:196)"}
+API response error - RequestId: 9d8baff2-014c-4917-9f72-2b5e8db2ddc8, Path: /api/avg, Status: 0
+API response sent - RequestId: 7356556e-f10f-487b-acdb-9b09541c1db5, Path: /api/avg, Status: 0
+{"requestId":"7356556e-f10f-487b-acdb-9b09541c1db5","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":0,"pathParam":"single","requestTime":1692695084238,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 7356556e-f10f-487b-acdb-9b09541c1db5, Path: /api/avg, Status: 0
+{"requestId":"7356556e-f10f-487b-acdb-9b09541c1db5","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":3,"pathParam":"single","requestTime":1692695084238,"responseStatus":0,"host":"APH10013","errorMessage":"Internal Server Error","errorStackTrace":"com.google.gson.Gson.checkValidFloatingPoint(Gson.java:448)com.google.gson.Gson$1.write(Gson.java:413)com.google.gson.Gson$1.write(Gson.java:399)com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:70)com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:196)"}
+API response error - RequestId: 7356556e-f10f-487b-acdb-9b09541c1db5, Path: /api/avg, Status: 0
+API response sent - RequestId: 929e35a1-48d2-4ec3-92a8-c662d7dc2da2, Path: /api/avg, Status: 0
+{"requestId":"929e35a1-48d2-4ec3-92a8-c662d7dc2da2","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":54439,"pathParam":"single","requestTime":1692695212922,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 929e35a1-48d2-4ec3-92a8-c662d7dc2da2, Path: /api/avg, Status: 0
+{"requestId":"929e35a1-48d2-4ec3-92a8-c662d7dc2da2","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":54467,"pathParam":"single","requestTime":1692695212922,"responseStatus":0,"host":"APH10013","errorMessage":"Internal Server Error","errorStackTrace":"com.google.gson.Gson.checkValidFloatingPoint(Gson.java:448)com.google.gson.Gson$1.write(Gson.java:413)com.google.gson.Gson$1.write(Gson.java:399)com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:70)com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:196)"}
+API response error - RequestId: 929e35a1-48d2-4ec3-92a8-c662d7dc2da2, Path: /api/avg, Status: 0
+API response sent - RequestId: a936af42-3ffb-4b39-b84b-646a9fceb399, Path: /api/avg, Status: 0
+{"requestId":"a936af42-3ffb-4b39-b84b-646a9fceb399","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":2913,"pathParam":"single","requestTime":1692695277392,"responseStatus":0,"host":"APH10013","errorMessage":"Not Found","errorStackTrace":"api.StudentResource.getAvegOfStudent(StudentResource.java:41)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)"}
+API response error - RequestId: a936af42-3ffb-4b39-b84b-646a9fceb399, Path: /api/avg, Status: 0
+API response sent - RequestId: 9c255558-e8ca-44c7-8c95-1428f53d53cc, Path: /api/avg, Status: 0
+{"requestId":"9c255558-e8ca-44c7-8c95-1428f53d53cc","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":44,"pathParam":"single","requestTime":1692696291891,"responseStatus":0,"host":"APH10013","errorMessage":"Not Found","errorStackTrace":"api.StudentResource.getAvegOfStudent(StudentResource.java:41)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)"}
+API response error - RequestId: 9c255558-e8ca-44c7-8c95-1428f53d53cc, Path: /api/avg, Status: 0
+API response sent - RequestId: 5169a1c2-8e09-49f3-a62d-6e537060626b, Path: /api/avg, Status: 0
+{"requestId":"5169a1c2-8e09-49f3-a62d-6e537060626b","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":284,"pathParam":"single","requestTime":1692701762877,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 89ca7694-56be-4cb8-a3c8-7341eb65f7d7, Path: /api/avg, Status: 0
+{"requestId":"89ca7694-56be-4cb8-a3c8-7341eb65f7d7","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":258,"pathParam":"single","requestTime":1692702117634,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 4f126ad2-e2e6-46f9-a10a-56919111587c, Path: /api/avg, Status: 0
+{"requestId":"4f126ad2-e2e6-46f9-a10a-56919111587c","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":58,"pathParam":"single","requestTime":1692702797046,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 041df3cd-32ac-43c6-8e75-451555daa5b5, Path: /api/avg, Status: 0
+{"requestId":"041df3cd-32ac-43c6-8e75-451555daa5b5","path":"/api/avg","pathTemplate":"/api/avg","method":"GET","elapsedTime":65,"pathParam":"single","requestTime":1692702869233,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: a7727e9d-dda4-4261-95d4-0200ca19dbdb, Path: /api/top5, Status: 0
+{"requestId":"a7727e9d-dda4-4261-95d4-0200ca19dbdb","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":56,"pathParam":"single","requestTime":1692704001021,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 49222395-8370-4b28-a1c7-487f4e74c603, Path: /api/top5, Status: 0
+{"requestId":"49222395-8370-4b28-a1c7-487f4e74c603","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":56,"pathParam":"single","requestTime":1692704126677,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 77cfd5c6-9d6e-42fb-a087-5c11d07ede53, Path: /api/top5, Status: 0
+{"requestId":"77cfd5c6-9d6e-42fb-a087-5c11d07ede53","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":2,"pathParam":"single","requestTime":1692704130272,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 0748384b-9a49-41dc-8414-43b885e1b2cc, Path: /api/top5, Status: 0
+{"requestId":"0748384b-9a49-41dc-8414-43b885e1b2cc","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":84,"pathParam":"single","requestTime":1692704157817,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 722bbbe9-c5b7-4789-ac04-44b62c3343a0, Path: /api/top5, Status: 0
+{"requestId":"722bbbe9-c5b7-4789-ac04-44b62c3343a0","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":353,"pathParam":"single","requestTime":1692704187015,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 2a7d32a3-6de6-4853-8cfd-639917301b5b, Path: /api/student, Status: 0
+{"requestId":"2a7d32a3-6de6-4853-8cfd-639917301b5b","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":57,"pathParam":"single","requestTime":1692705355698,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: a301e64e-f414-4e6f-9580-e46e324d220b, Path: /api/student, Status: 0
+{"requestId":"a301e64e-f414-4e6f-9580-e46e324d220b","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":56,"pathParam":"single","requestTime":1692705476860,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 03782f73-abc3-4941-b0b4-48496bbaea3d, Path: /api/student, Status: 0
+{"requestId":"03782f73-abc3-4941-b0b4-48496bbaea3d","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":55,"pathParam":"single","requestTime":1692705507281,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 510e8d08-9ec6-4e89-89c3-d9891ffd6eac, Path: /api/top5, Status: 0
+{"requestId":"510e8d08-9ec6-4e89-89c3-d9891ffd6eac","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":56018,"pathParam":"single","requestTime":1692705514349,"responseStatus":0,"host":"APH10013","errorMessage":"Not Found","errorStackTrace":"api.StudentResource.topStudentResponse(StudentResource.java:55)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)"}
+API response error - RequestId: 510e8d08-9ec6-4e89-89c3-d9891ffd6eac, Path: /api/top5, Status: 0
+API response sent - RequestId: 1e4127b6-ad79-43d6-b736-a26ded25e822, Path: /api/student, Status: 0
+{"requestId":"1e4127b6-ad79-43d6-b736-a26ded25e822","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":45,"pathParam":"single","requestTime":1692705587685,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 97451b94-110e-4b79-9835-fd5d39187422, Path: /api/top5, Status: 0
+{"requestId":"97451b94-110e-4b79-9835-fd5d39187422","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":3,"pathParam":"single","requestTime":1692705593346,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 9c3e6e51-2376-479f-85ab-ac68711d022e, Path: /api/student, Status: 0
+{"requestId":"9c3e6e51-2376-479f-85ab-ac68711d022e","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":55,"pathParam":"single","requestTime":1692705760783,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 595726cb-cfb2-4c00-9fcc-4c9f3a1d847c, Path: /api/top5, Status: 0
+{"requestId":"595726cb-cfb2-4c00-9fcc-4c9f3a1d847c","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":84300,"pathParam":"single","requestTime":1692705769114,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 40e7e00e-e050-4f3b-a53f-a6e22db77e89, Path: /api/top5, Status: 0
+{"requestId":"40e7e00e-e050-4f3b-a53f-a6e22db77e89","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":7135,"pathParam":"single","requestTime":1692705859649,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: 337cd176-b9ec-4db8-96ae-2e846ca4de8c, Path: /api/student, Status: 0
+{"requestId":"337cd176-b9ec-4db8-96ae-2e846ca4de8c","path":"/api/student","pathTemplate":"/api/student","method":"POST","elapsedTime":53,"pathParam":"single","requestTime":1692705893825,"responseStatus":0,"host":"APH10013"}
+API response sent - RequestId: aa0ff3f6-b162-4012-bfe1-3f14748689c7, Path: /api/top5, Status: 0
+{"requestId":"aa0ff3f6-b162-4012-bfe1-3f14748689c7","path":"/api/top5","pathTemplate":"/api/top5","method":"GET","elapsedTime":4,"pathParam":"single","requestTime":1692705900616,"responseStatus":0,"host":"APH10013"}
